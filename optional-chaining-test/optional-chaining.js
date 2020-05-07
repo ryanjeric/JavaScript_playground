@@ -47,4 +47,4 @@ console.log(n)
 const func = (xx) => {
     console.log(xx)
 }
-func?.(['123','456'])
+func?.test?.()
