@@ -1,0 +1,17 @@
+body{
+   background:#fa8e50; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#box {
+    width:200px;
+    height:200px;
+    display: none;
+    position: relative;
+    background: red;
+    border: solid 1px black;
+}
+
+.bold{
+    font-weight: bold;
+}
