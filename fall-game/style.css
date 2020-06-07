@@ -1,0 +1,58 @@
+:root{
+    --width: 400px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+body{
+    width: 410px;
+    margin:50px auto;
+}
+#game{
+    width: var(--width);
+    height: 520px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+#character{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 0, 195);
+    border-radius: 50%;
+    top: 440px;
+    left: 110px;
+    position: relative;
+    z-index: 100;
+}
+.block{
+    width: var(--width);
+    height: 20px;
+    background-color: black;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+.hole{
+    width: 40px;
+    height: 20px;
+    top: 100px;
+    margin-top: -20px;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+#left, #right{
+    width:50%;
+    position: absolute;
+    height: 500px;
+}
+#right{
+    left: 50%;
+}
